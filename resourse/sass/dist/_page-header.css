@@ -1,0 +1,12 @@
+.page-header {
+  min-height: 80px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 27px;
+  margin-right: 27px;
+  align-items: center;
+}
+.page-header .page-header__logo {
+  text-align: center;
+  padding-left: 65px;
+}
