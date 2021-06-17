@@ -13,32 +13,40 @@
 
 <body>
     <header class="page-header">
-
-        <a class page-header__logo href="mobile_index.html">
-            <img class="page-header__logo-image" src="resourse/img/mobile-mishka-logo.svg" width="86" height="35" alt="Мишка">
-        </a>
-        <button class="main-nav__open" type="button">Открыть меню</button>
-        <nav class="main-nav">
-            <ul class="main-nav__list site-list">
-                <li class="site-list__item">
-                    <a href="#">Каталог товаров</a>
-                </li>
-                <li class=" site-list__item">
-                    <a href="#">Вязание на заказ</a>
-                </li>
-            </ul>
-            <ul class="main-nav__list search-list">
-                <li class="search-list__item">
-                    <a href="#">Поиск по сайту</a>
-                </li>
-            </ul>
-            <ul class="main-nav__list basket-list">
-                <li class="basket-list__item">
-                    <a href="#">Корзина: пока пуста</a>
-                </li>
-            </ul>
-        </nav>
-
+        <div class="page-header__wrapper">
+            <nav class="main-nav">
+                <a class page-header__logo href="mobile_index.html" href="index.html">
+                    <img class="page-header__logo-image" src="resourse/img/mobile-mishka-logo.svg" width="86"
+                        height="35" alt="Мишка">
+                </a>
+                <button class="main-nav__open" type="button">Открыть меню</button>
+                <ul class="main-nav__list site-list">
+                    <li class="site-list__item">
+                        <a href="#">Каталог товаров</a>
+                    </li>
+                    <li class=" site-list__item">
+                        <a href="#">Вязание на заказ</a>
+                    </li>
+                </ul>
+                <ul class="main-nav__list panel-list">
+                    <li class="panel-list__item">
+                        <a class="panel-list__item--search" href="#">Поиск по сайту</a>
+                    </li>
+                    <li class="panel-list__item">
+                        <a class="panel-list__item--basket" href="#">Корзина: пока пуста</a>
+                    </li>
+                </ul>
+                <ul class="main-nav__list promo-list">
+                    <li class="promo-list__item">
+                        <a class="promo-list__item--news" href="#">Новые поступления</a>
+                    </li>
+                    <li class="promo-list__item">
+                        <a class="promo-list__item--sale" href="#">Распродажа</a>
+                    </li>
+                </ul>
+                <p class="main-nav__delivery">Бесплатная доставка по России</p>
+            </nav>
+        </div>
     </header>
     <main clas="page-main">
         <section class="assortiment">
